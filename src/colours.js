@@ -24,6 +24,7 @@ const Colors = () => {
                 <div className="item" key={color1} style={{background: color1}}
                 onClick={copyColour}
                 >
+                    {/* <audio class = "sound_c" src="beep.mp3"></audio> */}
                     <div>{color1}</div>
                 </div>
                 ))}
